@@ -7,20 +7,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="RPS.CSS">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
     </head>
     <body>
-        <h1>Rock! Paper! Scissors!</h1>
-        <p>Select either Rock, Paper, or Scissors to start.</p>
+        <div id="allofit" class="text-bg-info p-3">
+        <h1 class="display-1">Rock! Paper! Scissors!</h1>
+        <h1 class="display-6">Select either Rock, Paper, or Scissors to start.</h1>
         <div class= "score"> 
 
         </div>
-        <div class="message">
+        <div id="msg" class="message">
 
         </div>
-        <button type="button">Rock</button>
-        <button type="button">Paper</button>
-        <button type="button">Scissors</button>
-        
+        <button id="btn" type="button" class="btn btn-warning">Rock</button>
+        <button id="btn" type="button" class="btn btn-warning">Paper</button>
+        <button id="btn" type="button" class="btn btn-warning">Scissors</button>
+        </div>
         <script src="RPS.JS" async defer></script>
+       
     </body>
 </html>
