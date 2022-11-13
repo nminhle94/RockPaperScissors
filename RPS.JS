@@ -35,7 +35,7 @@ function playGame(e){
         result += ' It\'s a tie!';
     }
 
-    score.innerHTML = `Player: [ ${winnerScores[0]} ] Computer: [ ${winnerScores[1]} ]`;
+    //score.innerHTML = `Player: [ ${winnerScores[0]} ] Computer: [ ${winnerScores[1]} ]`;
 
     messenger('Player: <strong>' + playerSelection + '</strong> Computer: <strong>' + computerSelection + '</strong><br>' + result);
 }
